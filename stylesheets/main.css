@@ -1,0 +1,41 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(217, 217, 217, 1) 65%, rgba(171, 171, 171, 1) 100%);
+}
+
+a {
+  font-size: 20px;
+  -webkit-transition: color 0.5s, fill 0.5s; /* Safari */
+  transition: color 0.5s, fill 0.5s;
+}
+
+a:link {
+  color: black;
+  fill: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  fill: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  fill: gray;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  fill: black;
+  text-decoration: none;
+}
